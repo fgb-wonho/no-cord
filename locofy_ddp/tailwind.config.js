@@ -15,8 +15,8 @@ module.exports = {
         "bg-white": "#fff",
         gray: "#828282",
         gainsboro: {
-          "100": "#e5e5e5",
-          "200": "#dbdbdb",
+          100: "#e5e5e5",
+          200: "#dbdbdb",
         },
         lightgray: "#ccc",
         dimgray: "#696969",

@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": true,
+    "naming": "Pascal Case",
+    "unit": "px",
+    "framework": "nextjs",
+    "styling": "Tailwind"
+  },
+  "locofyConfig": {
+    "project": "ddp_test",
+    "id": "65e94db333a705ec4c2d95a7",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "/home/wonho/test/no-cord/locofy_ddp/components",
+    "screensPath": "/home/wonho/test/no-cord/locofy_ddp/pages"
+  }
+}
