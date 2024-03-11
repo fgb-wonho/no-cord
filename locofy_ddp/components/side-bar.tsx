@@ -5,15 +5,16 @@ import { useRouter } from "next/router";
 const SideBar: NextPage = () => {
   const router = useRouter();
 
-  const onText39Click = useCallback(() => {
+  const onText2Click = useCallback(() => {
     router.push("/user-white-list");
   }, [router]);
-  const onText41Click = useCallback(() => {
-    router.push("/guild-list");
+
+  const onText4Click = useCallback(() => {
+    router.push("/");
   }, [router]);
 
   return (
-    <div className="w-[300px] bg-bg box-border flex flex-col items-start justify-start pt-2.5 px-1 pb-96 gap-[10px] text-left text-base text-border font-inter border-[1px] border-solid border-border mq725:pb-[162px] mq725:box-border mq1000:hidden mq1000:pt-5 mq1000:pb-[250px] mq1000:box-border">
+    <div className="w-[300px] bg-bg box-border flex flex-col items-start justify-start pt-2.5 px-1 pb-96 gap-[10px] text-left text-base text-border font-inter border-[1px] border-solid border-border mq1000:pb-[162px] mq1000:box-border mq450:hidden mq450:pt-5 mq450:pb-[250px] mq450:box-border">
       <div className="self-stretch bg-bg overflow-hidden flex flex-col items-start justify-start py-[5px] px-[26px] gap-[5px]">
         <b className="self-stretch h-[19px] relative inline-block">유저</b>
         <div className="self-stretch h-[19px] relative font-semibold inline-block">
@@ -21,7 +22,7 @@ const SideBar: NextPage = () => {
         </div>
         <div
           className="self-stretch h-[19px] relative inline-block cursor-pointer"
-          onClick={onText39Click}
+          onClick={onText2Click}
         >
           ㄴ 화이트리스트
         </div>
@@ -30,7 +31,7 @@ const SideBar: NextPage = () => {
         <b className="self-stretch h-[19px] relative inline-block">길드</b>
         <div
           className="self-stretch h-[19px] relative inline-block cursor-pointer"
-          onClick={onText41Click}
+          onClick={onText4Click}
         >
           길드
         </div>

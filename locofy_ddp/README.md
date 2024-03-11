@@ -8,8 +8,13 @@ To preview and run the project on your device:
 2. In the terminal, run `npm install`
 <<<<<<< HEAD
    <<<<<<< HEAD
+   <<<<<<< HEAD
 3. # Run `npm run dev` to view project in browser
 4. Run `npm start` to view project in browser
+
+> > > > > > > # Incoming
+> > > > > > >
+> > > > > > > 3. Run `npm start` to view project in browser
 
 > > > > > > > Incoming
 =======

@@ -17,10 +17,12 @@ module.exports = {
         gainsboro: {
           100: "#e5e5e5",
           200: "#dbdbdb",
+          300: "#e6e6e6",
         },
         lightgray: "#ccc",
         dimgray: "#696969",
         "gray-300": "#6a6a6a",
+        blueviolet: "#9747ff",
       },
       spacing: {},
       fontFamily: {
@@ -32,6 +34,9 @@ module.exports = {
     },
     fontSize: {
       xl: "20px",
+      "3xl": "22px",
+      lg: "18px",
+
       base: "16px",
       "5xl": "24px",
       "3xl": "22px",
