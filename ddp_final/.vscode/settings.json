@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "ddp_final2",
+    "id": "65f007bb3400d42052ba95e7",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "/home/wonho/test/no-cord/ddp_final/src/components",
+    "screensPath": "/home/wonho/test/no-cord/ddp_final/src/pages"
+  }
+}
